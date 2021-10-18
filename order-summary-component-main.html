@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width,initial-scale=1.0'>
+        <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+        <style>
+            body{
+                background-color: hsl(225, 100%, 94%);
+            }
+            .back_layout{
+                width:30%;
+                margin:auto;
+            }
+            .back_img{
+                position:absolute;
+                z-index:0;
+                width:100%;
+            }
+            .container{
+                background-color:hsl(225, 100%, 98%);
+                border:2px solid hsl(225, 100%, 98%);
+                border-radius:12px;
+                width: 25%;
+                position:absolute;
+                z-index:1;
+                margin-top:5%;
+            }
+            h1{
+                display:block;
+                width:60%;
+                margin:auto;
+                font-weight: 900;
+            }
+            .lower-container{
+                padding:25px;
+            }
+            p{
+                color:hsl(224, 23%, 55%);
+                margin:25px;
+            }
+            .row{
+                background-color:hsl(225, 100%, 94%);
+                border:2px solid hsl(225, 100%, 94%);
+                border-radius:12px;
+                padding:10px;
+
+            }
+            .annual{
+                display: inline;
+            }
+            .income{
+                margin-left:13%;
+                font-weight: 500;
+            }
+            .change_button{
+                margin-left:50%;
+                background-color:hsl(225, 100%, 94%);
+                color:hsl(223, 47%, 23%);
+                text-decoration: underline;
+                cursor:pointer;
+                font-weight: 700;
+            }
+            .proceed_button,.cancel_button{
+                width:100%;
+                padding:15px;
+                margin:10px;
+                border-radius: 12px;
+                font-size:16px;
+                font-weight: 900;
+                cursor:pointer;
+            }
+            .proceed_button{
+                background-color:hsl(245, 75%, 52%);
+                color:white;
+                border-color:hsl(245, 75%, 52%);
+            }
+            .cancel_button{
+                background-color:hsl(225, 100%, 98%);
+                color:hsl(224, 23%, 55%);
+                border:none;
+            }
+            .change_button:hover{
+                text-decoration: none;
+                color:hsl(245, 75%, 52%);
+            }
+            .proceed_button:hover{
+                background-color:hsl(223, 47%, 23%);
+            }
+            .cancel_button:hover{
+                color:hsl(223, 47%, 23%);
+            }
+            @media only screen and (max-width:375px){
+                .back_img{
+                    display:none;
+                }
+                .container{
+                    width:70%;
+                }
+                .back_layout{
+                    width:70%;
+                }
+                .lower-container{
+                    padding:15px;
+                }
+                h1{
+                    width:100%;
+                    margin:0;
+                    padding:10px;   
+                }
+                p{
+                    margin:10px;
+                }
+                .change_button{
+                    margin:0;
+                    padding-left:50%;
+                }
+                .proceed_button,.cancel_button{
+                    margin:auto;
+                                       
+                }
+
+            }
+
+        </style>
+    </head>
+    <body>
+        <img class='back_img' src='order-summary-component-main/images/pattern-background-desktop.svg'>
+        <div class='back_layout'>
+            <div class='container'>
+                <div class='upper-container'>
+                    <img style='border-radius:12px;width:100%'src='order-summary-component-main/images/illustration-hero.svg'>
+
+                </div>
+                <div class='lower-container'>
+                    <h1 style='color:hsl(223, 47%, 23%)'>Order Summary</h1>
+                    <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
+                    <div class='payment_container'>
+                        <div class='row'>
+                            <span><img src='order-summary-component-main/images/icon-music.svg'></span>
+                            
+                            <a style='font-weight: 900;color:hsl(223, 47%, 23%)' class='annual'>Annual Plan</a><a type='button' class='change_button'>Change</a>
+                            <p class="income">$59.99/year</p>
+                        </div>
+                        
+                    </div>
+                    <div><button class='proceed_button'>Proceed to Payment</button></div>
+                    <div><button class='cancel_button'>Cancel Order</button></div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
