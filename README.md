@@ -22,13 +22,6 @@ Users should be able to:
 
 - See hover states for interactive elements
 
-### Screenshot
-
-x-special/nautilus-clipboard
-copy
-file:///home/swati/Pictures/Screenshot%20from%202021-10-18%2014-09-18.png
-
-
 ### Links
 
 - Live Site URL: [https://swati-verma671.github.io/Order-Summary-Component/]
