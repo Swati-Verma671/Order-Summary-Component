@@ -16,15 +16,10 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 ## Overview
 This a designed frontend of a order summary component of a webpage.
 
-### The challenge
-
-Users should be able to:
-
-- See hover states for interactive elements
 
 ### Links
 
-- Live Site URL: [https://swati-verma671.github.io/Order-Summary-Component/]
+- Live Site URL: [Here](https://swati-verma671.github.io/Order-Summary-Component/)
 
 ### Built with
 
